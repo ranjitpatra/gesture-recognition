@@ -1,4 +1,8 @@
 # Neural Networks Project - Gesture Recognition
+> Developed by:
+- Ranjit Patra - Group facilitator
+- Kanchan Singh
+
 ## Problem Statement
 Imagine you are working as a data scientist at a home electronics company which manufactures state of the art smart televisions. You want to develop a cool feature in the smart-TV that can recognise five different gestures performed by the user which will help users control the TV without using a remote.
 
@@ -29,22 +33,17 @@ Each row of the CSV file represents one video and contains three main pieces of 
 Your task is to train a model on the 'train' folder which performs well on the 'val' folder as well (as usually done in ML projects). We have withheld the test folder for evaluation purposes - your final model's performance will be tested on the 'test' set.
 
 
-
 > Dataset - https://drive.google.com/uc?id=1ehyrYBQ5rbQQe6yL4XbLWe3FMvuVUGiL
 
 ## Technologies Used
-- Google Collab + jupyter Notebook
-- python - version 3.9.1
-- numpy - version 1.23.4
-- matplotlib - version 3.6.2
-- keras - version 2.12.0
-- tensorflow - version 2.12.0
+- Cloud Jarvis Lab + jupyter Notebook
+- dependencies are listed under the requirements.txt
+
+## Models
+![model.png](img/models.png)
 
 ## Conclusions
-
-- Model 1 (Base Model) - Is over-fit.
-- Model 2 (with data augmentation + dropouts) - Resolves overfitting issue but observed as underfit.
-- Model 3 (Fixed Class Imbalance by adding 500 images to each class using Augmentor + BN + 30 epochs - Class Rebalance helped to increase the Train and Validation accuracy.
+![final_model.png](img/final_model.png)
 
 ## Acknowledgements
 Give credit here.
